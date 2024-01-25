@@ -19,3 +19,6 @@ rotate(음수) : 안에 들어있는 수 만큼 왼쪽에 있는 걸 오른쪽�
 
 ## DFS/BFS
 ![image](https://github.com/mangoggul/coteStudy/assets/102888719/f2c3cc41-82f3-4f67-a92c-0dea0a3a8f51)
+
+![image](https://github.com/mangoggul/coteStudy/assets/102888719/a50eda03-2191-437d-a100-40e1e4e17c2d)
+
