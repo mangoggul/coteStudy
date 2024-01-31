@@ -28,12 +28,17 @@ rotate(음수) : 안에 들어있는 수 만큼 왼쪽에 있는 걸 오른쪽�
 ![image](https://github.com/mangoggul/coteStudy/assets/102888719/ee9e37cd-d197-4231-a2ed-f335822a18e4)
 
 ### 인접행렬 
+![image](https://github.com/mangoggul/coteStudy/assets/102888719/f33906a8-d5b8-4313-96a8-4ca1fca6490e)
+
 ```python
 graph = [[1,2,3,4],
          [1,2,4,6],
          [0,0,1,2]]
 ```
 ### 인접리스트
+
+![image](https://github.com/mangoggul/coteStudy/assets/102888719/e1a8e32c-a73a-4093-ba54-46195ed668d2)
+
 ```python
 graph = [['B','C'],
          ['A','C','D'],
