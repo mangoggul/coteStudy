@@ -16,3 +16,33 @@ dq.index(num) <= len(dq)//2: 이런 방식 자주 사용될것 같다. 왼쪽, �
 rotate(양수) : 안에 들어있는 수 만큼 오른쪽에 있는 걸 왼쪽으로 <br/>
 1 2 3 -> 3 1 2 <br/>
 rotate(음수) : 안에 들어있는 수 만큼 왼쪽에 있는 걸 오른쪽으로 
+
+## DFS/BFS
+![image](https://github.com/mangoggul/coteStudy/assets/102888719/f2c3cc41-82f3-4f67-a92c-0dea0a3a8f51)
+
+![image](https://github.com/mangoggul/coteStudy/assets/102888719/a50eda03-2191-437d-a100-40e1e4e17c2d)
+
+출처 : https://devuna.tistory.com/32
+
+## 인접리스트 인접행렬
+![image](https://github.com/mangoggul/coteStudy/assets/102888719/ee9e37cd-d197-4231-a2ed-f335822a18e4)
+
+### 인접행렬 
+![image](https://github.com/mangoggul/coteStudy/assets/102888719/f33906a8-d5b8-4313-96a8-4ca1fca6490e)
+
+```python
+graph = [[1,2,3,4],
+         [1,2,4,6],
+         [0,0,1,2]]
+```
+### 인접리스트
+
+![image](https://github.com/mangoggul/coteStudy/assets/102888719/e1a8e32c-a73a-4093-ba54-46195ed668d2)
+
+```python
+graph = [['B','C'],
+         ['A','C','D'],
+         ['A','B'],
+         ['B']]
+```
+
