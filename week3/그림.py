@@ -26,12 +26,12 @@ N , M = map(int,input().split())
 
 for i in range(N) :
     dfs_list.append(list(map(int, input().split())))
-cnt = 0
+size_cnt = 0
 ans = 0
 for i in range(N) :
     for j in range(M) :
         if dfs_list[i][j] == 1:
-            cnt += 1
+            size_cnt += 1
             ans = max(bfs(i,j),ans)
-print(cnt)
+print(size_cnt)
 print(ans)

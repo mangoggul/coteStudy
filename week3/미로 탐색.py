@@ -26,7 +26,7 @@ def bfs(x,y) :
 
     return bfs_list[N-1][M-1]
 
-
+print(bfs_list)
 
 
 rst = 0
