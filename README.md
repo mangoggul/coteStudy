@@ -46,3 +46,12 @@ graph = [['B','C'],
          ['B']]
 ```
 
+### LIS 알고리즘 (LONGEST INCREASING SUBSEQUENCE)
+```
+dp = [1]*N
+for i in range(1,N) :
+    for j in range(i) :
+        if lis[j] < lis[i] :
+            dp[i] = max(dp[i], dp[j]+1)
+
+```
